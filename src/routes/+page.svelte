@@ -1,7 +1,9 @@
-<!-- YOU CAN DELETE EVERYTHING IN THIS PAGE -->
+<script>
+	import ContactSection from "$lib/Components/contact-section.svelte";
+</script>
 
-<div class="container h-full mx-auto flex justify-center items-center">
-	<div class="w-1/3">
+<div class="container flex items-center justify-center mx-auto">
+	<!-- <div class="w-1/3">
 		<div>
 			<button type="button" class="block mb-2 btn bg-primary-500">Primary</button>
 			<button type="button" class="block mb-2 btn bg-secondary-500">Secondary</button>
@@ -11,8 +13,8 @@
 			<button type="button" class="block mb-2 btn bg-error-500">Error</button>
 			<button type="button" class="block mb-2 btn bg-surface-500">surface</button>
 		</div>
-	</div>
-	<div class="w-2/2 space-y-10 text-center flex flex-col items-center">
+	</div> -->
+	<div class="flex flex-col items-center space-y-10 text-center w-2/2">
 		<h2 class="h2">Welcome to SSFO Website.</h2>
 		<!-- Animated Logo -->
 		<figure>
@@ -40,6 +42,9 @@
 			<p><code class="code">/src/routes/+page.svelte</code></p>
 		</div>
 	</div>
+</div>
+<div class="container flex max-w-full mt-4 border-t-2 bg-slate-900">
+	<ContactSection />
 </div>
 
 <style lang="postcss">
