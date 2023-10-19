@@ -1,9 +1,11 @@
 <!-- YOU CAN DELETE EVERYTHING IN THIS PAGE -->
 <script>
 	import Hero from "$lib/components/Hero.svelte";
+	import Media from "$lib/components/Media.svelte";
 </script>
 
 <Hero/>
+<Media />
 
 <style lang="postcss">
 	figure {
