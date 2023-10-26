@@ -35,16 +35,16 @@
 		</div>
 
 		<div class="relative hidden lg:block">
-			<button class="btn hover:variant-soft-primary">
-				<span>Menu Item 3</span>
-			</button>
+			<a href="/contact" class="btn hover:variant-soft-primary">
+				<span>Contact Us</span>
+			</a>
 		</div>
 
 		<div class="relative hidden lg:block">
 			<LightSwitch />
 		</div>
 
-		<section class="hidden sm:inline-flex space-x-1 px-5">
+		<section class="hidden px-5 space-x-1 sm:inline-flex">
 			<a
 				class="btn-icon hover:variant-soft-primary"
 				href="https://github.com/Samoa-Stack-Overflow"
@@ -52,7 +52,7 @@
 				rel="noreferrer"
 			>
 				<IconBrandGithubFilled />
-				<i class="fa-brands fa-github text-lg" />
+				<i class="text-lg fa-brands fa-github" />
 			</a>
 			<a
 				class="btn-icon hover:variant-soft-primary"
