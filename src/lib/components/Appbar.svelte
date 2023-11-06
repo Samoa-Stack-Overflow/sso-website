@@ -35,9 +35,9 @@
 		</div>
 
 		<div class="relative hidden lg:block">
-			<a href="/contact" class="btn hover:variant-soft-primary">
-				<span>Contact Us</span>
-			</a>
+			<button class="btn hover:variant-soft-primary">
+				<span>Menu Item 3</span>
+			</button>
 		</div>
 
 		<div class="relative hidden lg:block">
