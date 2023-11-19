@@ -43,6 +43,14 @@
 				<IconBrandGithubFilled />
 				<i class="text-lg fa-brands fa-github" />
 			</a>
+			<a
+				class="btn-icon hover:variant-soft-primary"
+				href="https://discord.gg/Cq7JVQtT"
+				target="_blank"
+				rel="noreferrer"
+			>
+				<IconBrandDiscordFilled />
+			</a>
 		</section>
 	</svelte:fragment>
 </AppBar>
