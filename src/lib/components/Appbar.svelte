@@ -1,6 +1,6 @@
 <script>
 	import { AppBar, LightSwitch } from '@skeletonlabs/skeleton';
-	import { IconBrandGithubFilled, IconHome, IconMenu2 } from '@tabler/icons-svelte';
+	import { IconBrandGithubFilled, IconBrandDiscordFilled, IconHome, IconMenu2 } from '@tabler/icons-svelte';
 	import { menuItems } from '$lib/utils/';
 
 	export let toggleSidebar = false;
@@ -33,7 +33,7 @@
 
 		<LightSwitch />
 
-		<section class="hidden sm:inline-flex space-x-1 px-5">
+		<section class="hidden px-5 space-x-1 sm:inline-flex">
 			<a
 				class="btn-icon hover:variant-soft-primary"
 				href="https://github.com/Samoa-Stack-Overflow"
@@ -41,7 +41,15 @@
 				rel="noreferrer"
 			>
 				<IconBrandGithubFilled />
-				<i class="fa-brands fa-github text-lg" />
+				<i class="text-lg fa-brands fa-github" />
+			</a>
+			<a
+				class="btn-icon hover:variant-soft-primary"
+				href="https://discord.gg/Cq7JVQtT"
+				target="_blank"
+				rel="noreferrer"
+			>
+				<IconBrandDiscordFilled />
 			</a>
 		</section>
 	</svelte:fragment>
