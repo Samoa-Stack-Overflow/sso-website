@@ -1,3 +1,3 @@
-import { menuItems } from "./menuItems";
+export { scrollIntoView } from "./scrollIntoView";
+export { menuItems } from "./menuItems";
 
-export { menuItems };
